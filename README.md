@@ -2,7 +2,7 @@
 
 ## Description
 
-This MATLAB/Simulink project implements a 3DOF reaction wheel-based Attitude and Orbit Control System (AOCS) for satellite attitude control. Utilizing quaternion representation for attitude kinematics, the system employs PD control for precise attitude tracking. It includes models for satellite dynamics, wheel momentum management, and sensor integration. This project is designed for aerospace engineers seeking practical applications of control theory in spacecraft systems.
+This MATLAB/Simulink project implements a 3DOF reaction wheel-based Attitude and Orbit Control System (AOCS) for satellite attitude control. Utilizing quaternion representation for attitude kinematics, the system employs PD control for precise attitude tracking. It includes modeling of satellite rotational dynamics and pyramidal reaction wheels configuration. This project is designed for aerospace engineers seeking practical applications of control theory in spacecraft systems.
 
 ## Features
 
@@ -10,37 +10,55 @@ This MATLAB/Simulink project implements a 3DOF reaction wheel-based Attitude and
 - **Quaternion Representation**: Utilizes quaternion for attitude kinematics.
 - **PD Control**: Employs proportional-derivative control for attitude tracking.
 - **Simulation**: Includes detailed simulation of satellite dynamics and control.
-- **Sensor Integration**: Models sensor feedback for realistic control scenarios.
 
 ## Project Structure
 
-- **pixxel_assignment.m**: Main MATLAB script that sets up the parameters, runs the simulation, and generates plots.
-- **pixxel_assignment_model.slx**: Simulink model file for the AOCS.
+- **reaction_wheel.m**: Main MATLAB script that sets up the parameters, runs the simulation, and generates plots.
+- **reaction_wheel_model.slx**: Simulink model file for the AOCS.
 
-## Getting Started
+## Running the Project
 
-### Prerequisites
-
-- MATLAB R2022b or later
-- Simulink
-
-### Running the Project
-
-1. Clone the repository:
-
-    ```sh
-    git clone https://github.com/your-username/Satellite_Attitude_Control.git
-    cd Satellite_Attitude_Control
-    ```
-
-2. Open MATLAB and navigate to the project directory.
-3. Run the main script:
+1. Open MATLAB and navigate to the project directory.
+2. Run the main script:
 
     ```matlab
-    pixxel_assignment
+    reaction_wheel.m
     ```
 
-4. View the simulation results in the generated plots.
+3. View the simulation results in the generated plots.
+
+## Simulation Results
+
+### Satellite Torque
+
+![Satellite Torque](Images/satellite_torque.png)
+
+### Reaction Wheels Torque
+
+![Satellite Torque](Images/reaction_wheels_torque.png)
+
+### Satellite Angular Momentum
+
+![Satellite Torque](Images/satellite_angular_momentum.png)
+
+### Satellite Angular Rate
+
+![Satellite Torque](Images/satellite_angular_rate.png)
+
+### Satellite Attitude in Quaternion
+
+![Satellite Torque](Images/satellite_attitude_quaternion.png)
+
+### Satellite Attitude in Euler Angles
+
+![Satellite Torque](Images/satellite_attitude_euler_angles.png)
+
+## Documentation
+
+For more detailed information, please refer to the following documents:
+
+- [Reference PDF: Optimization of pyramidal reaction wheel configuration for minimizing angular momentum](Docs/Reference.pdf)
+- [Detailed Documentation PDF](Docs/Documentation.pdf)
 
 ## Author
 
@@ -48,4 +66,4 @@ Yuvannithi Thirumaran
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

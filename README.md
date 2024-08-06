@@ -31,7 +31,7 @@ This MATLAB/Simulink project implements a 3DOF reaction wheel-based Attitude and
 
 ### Satellite Torque
 
-![Satellite Torque](Images/satellite_torque.png)
+![Satellite Torque](Images/sat_torque.png)
 
 ### Reaction Wheels Torque
 
@@ -39,19 +39,19 @@ This MATLAB/Simulink project implements a 3DOF reaction wheel-based Attitude and
 
 ### Satellite Angular Momentum
 
-![Satellite Torque](Images/satellite_angular_momentum.png)
+![Satellite Torque](Images/sat_angular_momentum.png)
 
 ### Satellite Angular Rate
 
-![Satellite Torque](Images/satellite_angular_rate.png)
+![Satellite Torque](Images/sat_angular_rate.png)
 
 ### Satellite Attitude in Quaternion
 
-![Satellite Torque](Images/satellite_attitude_quaternion.png)
+![Satellite Torque](Images/sat_attitude_quaternion.png)
 
 ### Satellite Attitude in Euler Angles
 
-![Satellite Torque](Images/satellite_attitude_euler_angles.png)
+![Satellite Torque](Images/sat_attitude_euler_angles.png)
 
 ## Documentation
 
